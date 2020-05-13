@@ -2,11 +2,21 @@
   "expo": {
     "name": "testapp",
     "slug": "testapp",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyB_zUmwU2j_Q6zAHRP-rqYwonemZwuRlRY",
+          "authDomain": "expo-firebase-example-app.firebaseapp.com",
+          "databaseURL": "https://expo-firebase-example-app.firebaseio.com",
+          "projectId": "expo-firebase-example-app",
+          "storageBucket": "expo-firebase-example-app.appspot.com",
+          "messagingSenderId": "942748720561",
+          "appId": "1:942748720561:web:4095125b1f214cfb563190",
+          "measurementId": "G-NW985HK9CD"
+        }
+      }
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +28,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "xyz.bront.firebase",
+      "googleServicesFile": "./google-services.json"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "xyz.bront.firebase",
+      "googleServicesFile": "./GoogleService-Info.plist"
     }
   }
 }

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "942748720561",
+    "firebase_url": "https://expo-firebase-example-app.firebaseio.com",
+    "project_id": "expo-firebase-example-app",
+    "storage_bucket": "expo-firebase-example-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942748720561:android:1c3af91f1f40990c563190",
+        "android_client_info": {
+          "package_name": "lol.lol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942748720561-72ug8rfl62g0oeki3a2ievts76i5814a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvuB8TYZQ9iRG7H5jCgK5apuBUP4MIroA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942748720561-72ug8rfl62g0oeki3a2ievts76i5814a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942748720561-i4s3ku6k3g0qvhaunleko03gha1tgoo6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "xyz.bront.firebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942748720561:android:f3fe066c568569f3563190",
+        "android_client_info": {
+          "package_name": "xyz.bront.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942748720561-72ug8rfl62g0oeki3a2ievts76i5814a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvuB8TYZQ9iRG7H5jCgK5apuBUP4MIroA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942748720561-72ug8rfl62g0oeki3a2ievts76i5814a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "942748720561-i4s3ku6k3g0qvhaunleko03gha1tgoo6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "xyz.bront.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

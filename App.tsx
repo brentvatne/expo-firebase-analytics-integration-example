@@ -1,10 +1,21 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { Button, StyleSheet, View } from "react-native";
+import * as Analytics from "expo-firebase-analytics";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Button
+        title="Press me"
+        onPress={async () => {
+          try {
+            await Analytics.logEvent("button_press");
+            alert("Logged to Firebase!");
+          } catch (e) {
+            alert(e.message);
+          }
+        }}
+      />
     </View>
   );
 }
@@ -12,8 +23,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

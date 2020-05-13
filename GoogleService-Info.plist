@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>942748720561-i4s3ku6k3g0qvhaunleko03gha1tgoo6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.942748720561-i4s3ku6k3g0qvhaunleko03gha1tgoo6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC3FuNsMQ9jB5dOCHDgEsrBUVaHVGrzksM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>942748720561</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>xyz.bront.firebase</string>
+	<key>PROJECT_ID</key>
+	<string>expo-firebase-example-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>expo-firebase-example-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:942748720561:ios:06b7cc2110d52eb9563190</string>
+	<key>DATABASE_URL</key>
+	<string>https://expo-firebase-example-app.firebaseio.com</string>
+</dict>
+</plist>
